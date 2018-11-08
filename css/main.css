@@ -78,6 +78,7 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+/*    align-content: center;*/
     margin: auto;
     max-width: 800px;
 

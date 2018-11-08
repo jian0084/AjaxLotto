@@ -17,7 +17,7 @@ function init() {
 
 let getNums = {
 
-    url: "http://davidst.edumedia.ca/mad9014/nums.php",
+    url: "https://davidst.edumedia.ca/mad9014/nums.php",
     init: function () {
 
         let formData = new FormData();
