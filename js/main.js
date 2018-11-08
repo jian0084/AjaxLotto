@@ -62,6 +62,7 @@ let displayResults = function (data) {
 //    console.log(data);
     if (data.code == 0) {
         let ul = document.querySelector(".num_list");
+        ul.innerHTML = "";
         let generatedNums = data.numbers
         generatedNums.forEach(function (item) {
             nums.push(item);
